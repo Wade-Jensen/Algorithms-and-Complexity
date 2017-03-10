@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 #include "../ccputils/ioutils.h"
 
 using namespace std;
