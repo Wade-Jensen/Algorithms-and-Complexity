@@ -5,9 +5,6 @@
 #ifndef MYFIRSTCPP_TOOLBOX_H
 #define MYFIRSTCPP_TOOLBOX_H
 
-#include <iostream>
-#include <string>
-
 void print(std::string str);
 void print(int output);
 

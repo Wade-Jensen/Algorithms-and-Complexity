@@ -11,11 +11,10 @@ int main() {
         int sum = 0;
 
         if (n > 0) {
-            for (int i=0; i<n; i++) {
+            for (int i=0; i<n+1; i++) {
                 sum +=i;
             }
-            print("1+2+3+...+" + )
-            println(sum);
+            print( "The sum of numbers from 1 to "+to_string(n) + " is: " + to_string(sum) +"." );
             break;
         }
         else println("Please enter a positive number.");
