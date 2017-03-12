@@ -5,8 +5,10 @@
 #include <iostream>
 
 
-template<typename T> void print(T output) {
-    std::cout << output;
+
+
+template<typename T> void println(T output) {
+    std::cout << output << std::endl;
 }
 
 std::string getWord() {

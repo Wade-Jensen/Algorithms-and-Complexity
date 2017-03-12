@@ -5,11 +5,13 @@
 #ifndef MYFIRSTCPP_TOOLBOX_H
 #define MYFIRSTCPP_TOOLBOX_H
 
-template<typename T> void print(T output);
-void print(int output);
+template<typename T> inline void print(T output) {
+    std::cout << output;
+}
 
-void println(std::string str);
-void println(int output);
+template<typename T> inline void println(T output) {
+    std::cout << output;
+}
 
 std::string getWord();
 std::string getln();

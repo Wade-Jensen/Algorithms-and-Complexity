@@ -8,7 +8,7 @@ using namespace std;
 
 int main() {
 
-    print("Enter a distance in meters: ");
+    print<string>("Enter a distance in meters: ");
     double distance = getDouble();
 
 
@@ -16,6 +16,5 @@ int main() {
     double inches = distance/METRES_PER_INCH - feet*INCHES_PER_FOOT;
 
     println( to_string(distance) + "m = " + to_string(feet) + " feet and " + to_string(inches) + " inches." );
-
     return 0;
 }
