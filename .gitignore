@@ -27,10 +27,10 @@
 *.exe
 *.out
 *.app
-MyFirstCPP/cmake-build-debug/CMakeFiles/
-MyFirstCPP/cmake-build-debug/CMakeCache.txt
-MyFirstCPP/cmake-build-debug/
-sentinel/cmake-build-debug/
-DistanceConverter/cmake-build-debug/
-reverse/cmake-build-debug/
-pi_on_four/cmake-build-debug/
+week_2/MyFirstCPP/cmake-build-debug/CMakeFiles/
+week_2/MyFirstCPP/cmake-build-debug/CMakeCache.txt
+week_2/MyFirstCPP/cmake-build-debug/
+week_2/sentinel/cmake-build-debug/
+week_2/DistanceConverter/cmake-build-debug/
+week_2/reverse/cmake-build-debug/
+week_2/pi_on_four/cmake-build-debug/
