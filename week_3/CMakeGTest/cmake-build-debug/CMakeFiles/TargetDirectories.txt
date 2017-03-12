@@ -1,0 +1,3 @@
+C:/Users/WadeJensen/CLionProjects/week_3/CMakeGTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/WadeJensen/CLionProjects/week_3/CMakeGTest/cmake-build-debug/CMakeFiles/CMakeGTest.dir
+C:/Users/WadeJensen/CLionProjects/week_3/CMakeGTest/cmake-build-debug/CMakeFiles/edit_cache.dir
