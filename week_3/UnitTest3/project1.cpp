@@ -1,10 +1,10 @@
 #include "project1.h"
 
-void Project1::foo(int &i) {
-	i = 1;
-}
+//void Project1::foo(int &i) {
+//	i = 1;
+//}
 
 
-void independentMethod(int &i) {
-	i = 0;
+bool independentMethod(int* i) {
+	return true;
 }

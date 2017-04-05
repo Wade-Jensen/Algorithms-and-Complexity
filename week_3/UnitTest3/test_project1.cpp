@@ -6,21 +6,18 @@
 
 // IndependentMethod is a test case - here, we have 2 tests for this 1 test case
 TEST(IndependentMethod, ResetsToZero) {
-	int i = 3;
-	independentMethod(i);
-	EXPECT_EQ(0, i);
+	int i[] = {3};
+    independentMethod(i);
+	EXPECT_EQ(false, independentMethod(i));
 
-	i = 12;
-	independentMethod(i);
-	EXPECT_EQ(0,i);
 }
 
-TEST(IndependentMethod, ResetsToZero2) {
-	int i = 0;
-	independentMethod(i);
-	EXPECT_EQ(0, i);
-}
-
+//TEST(IndependentMethod, ResetsToZero2) {
+//	int i = 0;
+//	independentMethod(i);
+//	EXPECT_EQ(false, i);
+//}
+/*
 // The fixture for testing class Project1. From google test primer.
 class Project1Test : public ::testing::Test {
 protected:
@@ -50,13 +47,14 @@ protected:
 	// Objects declared here can be used by all tests in the test case for Project1.
 	Project1 p;
 };
-
+*/
 // Test case must be called the class above
 // Also note: use TEST_F instead of TEST to access the test fixture (from google test primer)
+/*
 TEST_F(Project1Test, MethodBarDoesAbc) {
 	int i = 0;
 	p.foo(i); // we have access to p, declared in the fixture
 	EXPECT_EQ(1, i);
 }
-
+*/
 // }  // namespace - could surround Project1Test in a namespace

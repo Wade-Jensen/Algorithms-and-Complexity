@@ -3,17 +3,17 @@
 
 #include <iostream> // IO access
 
-class Project1 {
+//class Project1 {
 
-public:
+//public:
 	// why only detected if implemented here?
 	// void foo(int &i) {
 	// 	i = 1;
 	// }
-	void foo(int &i);
+//	void foo(int &i);
 
-};
+//};
 
-void independentMethod(int &i);
+bool independentMethod(int* i);
 
 #endif /* PROJECT1_H_ */
