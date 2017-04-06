@@ -8,11 +8,7 @@
 int countPrimes(int limit) {
 
     // declare prime array - 0 to limits
-    int * primes = new int[limit+1];
     // initialise indexes 0 and 1 to false and all others to true
-    primes[0] = false;
-    primes[1] = false;
-
     bool * isPrime = new bool[limit+1];
     isPrime[0] = false;
     isPrime[1] = false;
@@ -37,8 +33,7 @@ int countPrimes(int limit) {
         if (isPrime[i]) count++;
     }
 
-    for (int i=0; i<limit-1; i++) {
-        primes[i] = i;
-    }
+    delete[] isPrime;
+
     return count;
 }
